@@ -49,7 +49,12 @@ section img {
   width: auto;
 }
 
+h1 {
+  margin-bottom: 10px;
+}
+
 article p {
   width: 40vw;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
