@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 ul {
@@ -33,4 +34,22 @@ a {
   display: flex;
   height: 30vh;
   padding: 10px;
+}
+
+.imgs-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+}
+
+section img {
+  max-height: 300px;
+  width: auto;
+}
+
+article p {
+  width: 40vw;
+  margin: 0 auto;
 }
